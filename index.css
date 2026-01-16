@@ -52,8 +52,11 @@ body {
 }
 
 .navbar ul li:hover {
-    color: lightgray;
     scale: 1.1;
+}
+
+.navbar ul li a:hover {
+    color: lightgray;
 }
 
 .parent {
