@@ -1,54 +1,108 @@
-h1 {
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 5px #ccc;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+
+.logo {
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+.logo:hover {
+    color: lightgray;
+    scale: 1.1;
     transition: all 0.3s ease;
 }
 
-h1:hover {
-    box-shadow: 0 0 5px #ccc;
-    transform: scale(1.1);
-}
-
-.btn {
-    background-color: red;
-    color: white;
+.btn1 {
     padding: 10px 20px;
+    background-color: grey;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 10px;
 }
 
-.btn:hover {
-    box-shadow: 0 0 5px red;
-}
-
-a {
-    color: black;
-    
+.btn1:hover {
+    background-color: lightgray;
+    scale: 1.1;
     transition: all 0.3s ease;
-    
 }
 
-a:hover {
-    box-shadow: 0 0 5px #ccc;
-    transform: scale(1.1);
-    color: rgb(59, 206, 255);
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-input {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li:hover {
+    color: lightgray;
+    scale: 1.1;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.produit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
     border: 1px solid #ccc;
-    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+    text-align: center;
 }
 
-input:hover {
-    box-shadow: 0 0 5px #ccc;
+.btnPanier {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+.btnPanier:hover {
+    background-color: lightgray;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.un{
+    background-color: lightblue;
+}
+
+.deux{
+    background-color: lightyellow;
+}
+
+.trois{
+    background-color: lightgreen;
+}
+
+.quatre{
+    background-color: lightcoral;
+}
